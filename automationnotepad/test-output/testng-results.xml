@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-28T10:45:09 PKT" name="Default suite" finished-at="2026-06-28T10:47:45 PKT" duration-ms="156063">
+    <groups>
+    </groups>
+    <test started-at="2026-06-28T10:45:09 PKT" name="Default test" finished-at="2026-06-28T10:47:45 PKT" duration-ms="156063">
+      <class name="tests.Main_File">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:45:09 PKT" name="setup" finished-at="2026-06-28T10:45:36 PKT" duration-ms="27225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createNoteTest()[pri:1, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:45:36 PKT" name="createNoteTest" finished-at="2026-06-28T10:45:47 PKT" duration-ms="10751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNoteTest -->
+        <test-method signature="openNoteTest()[pri:2, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:45:47 PKT" name="openNoteTest" finished-at="2026-06-28T10:46:06 PKT" depends-on-methods="tests.Main_File.createNoteTest" duration-ms="18506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNoteTest -->
+        <test-method signature="editNoteTest()[pri:3, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:46:06 PKT" name="editNoteTest" finished-at="2026-06-28T10:46:27 PKT" depends-on-methods="tests.Main_File.openNoteTest" duration-ms="21727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editNoteTest -->
+        <test-method signature="deleteNoteTest()[pri:4, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:46:27 PKT" name="deleteNoteTest" finished-at="2026-06-28T10:46:36 PKT" depends-on-methods="tests.Main_File.editNoteTest" duration-ms="9119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNoteTest -->
+        <test-method signature="searchNoteTest()[pri:5, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:46:36 PKT" name="searchNoteTest" finished-at="2026-06-28T10:46:43 PKT" duration-ms="6384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNoteTest -->
+        <test-method signature="sortNoteTest()[pri:6, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:46:43 PKT" name="sortNoteTest" finished-at="2026-06-28T10:46:54 PKT" duration-ms="10799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortNoteTest -->
+        <test-method signature="createMultipleNotesTest()[pri:7, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:46:54 PKT" name="createMultipleNotesTest" finished-at="2026-06-28T10:47:43 PKT" duration-ms="49230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleNotesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Main_File@3857f613]" started-at="2026-06-28T10:47:43 PKT" name="tearDown" finished-at="2026-06-28T10:47:45 PKT" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Main_File -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
