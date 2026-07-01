@@ -15,7 +15,7 @@ public class AppOpen {
         try {
 
 //        	git practice
-        	
+//        	git learning
         	
             DesiredCapabilities caps = new DesiredCapabilities();
 
