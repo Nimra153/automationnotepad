@@ -14,6 +14,9 @@ public class AppOpen {
 
         try {
 
+//        	git practice
+        	
+        	
             DesiredCapabilities caps = new DesiredCapabilities();
 
             caps.setCapability("platformName", "Android");
