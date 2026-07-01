@@ -16,6 +16,7 @@ public class AppOpen {
 
 //        	git practice
 //        	git learning
+//        	git practice day 2
         	
             DesiredCapabilities caps = new DesiredCapabilities();
 
